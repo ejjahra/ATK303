@@ -1,7 +1,16 @@
 
 
 
+.mountains {
+  position: absolute;
+    left: 50px;
+    top: 825px;
 
-p {
-  color: red;
+}
+
+.river {
+  position: absolute;
+    left: -6px;
+    top: 855px;
+
 }
