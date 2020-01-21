@@ -1,13 +1,24 @@
+var myState=0;
+var rkelly;
+
 function setup() {
   // put setup code here
   createCanvas(displayWidth, displayHeight);
 }
 
+function preload() {
+  rkelly = loadImage("images/r-kelly.jpg");
+}
+
 function draw() {
   // put drawing code here
+
+  switch(myState) {
+
+  case 0:
   background(0, 50, 85);
   fill(000);
-  text("my mouse is at " + mouseX + "," + mouseY, 20, 300);
+  // text("my mouse is at " + mouseX + "," + mouseY, 20, 300);
 
   fill(247, 174, 30);
   circle(1323, 685, 400);
@@ -18,6 +29,7 @@ function draw() {
   rect(0, 685, 1680, 2000);
   makeMedMountain();
   makeBigMountain();
+
 
   makeSnow();
 
@@ -31,7 +43,14 @@ function draw() {
   translate(170, -72);
   makeSnow1();
 
+  makeCave();
 
+  image(rkelly);
+  break;
+
+  case 1:
+  break;
+  }
 }
 
 
@@ -199,4 +218,11 @@ function makeSnow1() {
     curveVertex(390, 368);
     curveVertex(390, 368);
     endShape();
+}
+
+function makeCave() {
+  scale(1);
+  fill(127, 144, 149);
+  translate(-600, -132);
+  arc(568, 823, 60, 120, PI, TWO_PI);
 }
