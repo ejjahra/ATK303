@@ -1,21 +1,13 @@
-var myState=0;
-var rkelly;
+
 
 function setup() {
   // put setup code here
   createCanvas(displayWidth, displayHeight);
 }
 
-function preload() {
-  rkelly = loadImage("images/r-kelly.jpg");
-}
-
 function draw() {
   // put drawing code here
 
-  switch(myState) {
-
-  case 0:
   background(0, 50, 85);
   fill(000);
   text("my mouse is at " + mouseX + "," + mouseY, 20, 300);
@@ -44,29 +36,6 @@ function draw() {
   makeSnow1();
 
   makeCave();
-
-  break;
-
-  case 1:
-  image(rkelly, 300, 300);
-  break;
-  }
-}
-
-function mouseReleased() {
-
-  switch (myState) {
-    case 0:
-    myState = 0;
-    break;
-
-    case 1:
-      var d = dist(mouseX, mouseY, 570, 820);
-      if (d < 62.5) {
-        myState = 1;
-      }
-      break;
-    }
 }
 
 
