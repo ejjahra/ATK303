@@ -14,3 +14,15 @@
     top: 855px;
 
 }
+
+.cave {
+  position: absolute;
+    left: 545px;
+    top: 807px;
+}
+
+.clouds {
+  position: absolute;
+    left: 1025px;
+    top: 100px;
+}
