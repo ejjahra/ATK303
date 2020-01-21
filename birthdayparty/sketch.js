@@ -13,44 +13,45 @@ function preload() {
 function draw() {
   // put drawing code here
 
-  switch(myState) {
-
-  case 0:
-  background(0, 50, 85);
-  fill(000);
-  // text("my mouse is at " + mouseX + "," + mouseY, 20, 300);
-
-  fill(247, 174, 30);
-  circle(1323, 685, 400);
-  fill(241, 90, 36);
-  circle(1323, 685, 300);
-
-  fill(98, 181, 115);
-  rect(0, 685, 1680, 2000);
-  makeMedMountain();
-  makeBigMountain();
-
-
-  makeSnow();
-
-  makeSnow1();
-
-  scale(.75);
-  translate(775, 375);
-  makeMedMountain();
-
-  scale(1.2);
-  translate(170, -72);
-  makeSnow1();
-
-  makeCave();
-
   image(rkelly);
-  break;
 
-  case 1:
-  break;
-  }
+  // switch(myState) {
+  //
+  // case 0:
+  // background(0, 50, 85);
+  // fill(000);
+  // // text("my mouse is at " + mouseX + "," + mouseY, 20, 300);
+  //
+  // fill(247, 174, 30);
+  // circle(1323, 685, 400);
+  // fill(241, 90, 36);
+  // circle(1323, 685, 300);
+  //
+  // fill(98, 181, 115);
+  // rect(0, 685, 1680, 2000);
+  // makeMedMountain();
+  // makeBigMountain();
+  //
+  //
+  // makeSnow();
+  //
+  // makeSnow1();
+  //
+  // scale(.75);
+  // translate(775, 375);
+  // makeMedMountain();
+  //
+  // scale(1.2);
+  // translate(170, -72);
+  // makeSnow1();
+  //
+  // makeCave();
+  // break;
+  //
+  // case 1:
+  // image(rkelly);
+  // break;
+  // }
 }
 
 
