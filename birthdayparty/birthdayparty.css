@@ -45,10 +45,26 @@
     top: 300px;
 }
 
-p {
+.angel {
   font-family: 'Marck Script', cursive;
   font-size: 120px;
   color: white;
   position: absolute;
     left: 430px;
+}
+
+.cavetext {
+  font-family: 'Karla', sans-serif;
+  color: #9AAFB6;
+  position: absolute;
+    left: 535px;
+    top: 773px;
+}
+
+.cloudtext {
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+    left: 1310px;
+    top: 230px;
+  color: #E6E6E6;
 }
