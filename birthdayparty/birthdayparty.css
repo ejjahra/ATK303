@@ -26,3 +26,29 @@
     left: 1025px;
     top: 100px;
 }
+
+.exile {
+  width: 1680px;
+  position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.color {
+  background-color: #003255;
+}
+
+.celine {
+  width: 1200px;
+  position: absolute;
+    left: 225px;
+    top: 300px;
+}
+
+p {
+  font-family: 'Marck Script', cursive;
+  font-size: 120px;
+  color: white;
+  position: absolute;
+    left: 430px;
+}
