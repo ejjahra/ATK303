@@ -6,8 +6,6 @@
     <!--Script in <head>-->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.shuffle-images.min.js"></script>
-  </head>
-  <body>
     <script>
     $(".shuffle-me").shuffleImages({
  trigger: "imageHover",     // Choose which type of trigger you want here. Available options are "imageMouseMove", "imageHover", "documentMouseMove", and "documentScroll". "imageMouseMove" will trigger when your mouse over the image and move your cursor. "imageHover" will trigger when you mouse over without moving your cursor. "documentMouseMove" will trigger when cursor is being moved anywhere on the page. "documentScroll" will trigger when you scroll the page. The default value is "imageMouseMove"
@@ -18,6 +16,8 @@
  target: "> img"              // In case you have a complete HTML structure, you can set your own custom selector to your images here. The default value is "> img" which means images that are directly under the "shuffle-me" will be used to shuffle.
 });
     </script>
+  </head>
+  <body>
     <div class="shuffle-me">
     <img src="images/four.jpg" width="400"/>
     <img src="images/jarjar.jpg" width="400"/>
