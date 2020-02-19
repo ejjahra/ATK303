@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 280 280" style="enable-background:new 0 0 280 280;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#73737F;stroke:#000000;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_2_);}
+	.st3{opacity:0.53;clip-path:url(#SVGID_4_);}
+	.st4{clip-path:url(#SVGID_6_);fill:#E6E2DF;}
+	.st5{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#000000;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g id="sq2">
+	<rect x="33.69" y="35.21" class="st0" width="224.76" height="224.76"/>
+</g>
+<g id="sq1">
+	<rect x="21.54" y="20.03" class="st1" width="224.76" height="224.76"/>
+</g>
+<g id="colorband">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="23.06" y="81.27" width="221.72" height="105.81"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st2">
+			<defs>
+				<rect id="SVGID_3_" x="23.06" y="81.27" width="221.72" height="105.81"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<g class="st3">
+				<g>
+					<defs>
+						<rect id="SVGID_5_" x="19.77" y="39.47" width="228.31" height="153.58"/>
+					</defs>
+					<clipPath id="SVGID_6_">
+						<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+					</clipPath>
+					<rect x="23.06" y="81.27" class="st4" width="221.72" height="105.81"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="jo">
+	<path class="st5" d="M156.71,183.28c0,0-44.04-33.41-15.19-78.21s44.8-38.73,44.8-38.73s9.11,4.56,4.56,18.98
+		S140,220.49,114.94,237.95c-10.35-11.73,6.26-57.94,48.69-73.69c6.47-2.4,13.51-2.59,20.23-1.02c10.4,2.44,14.61-1.99,14.61-1.99
+		s-7.59,5.32-12.91,3.8c-3.49-1-6.98-1.99-10.46,0.23c-7.1,4.52-5.49,15.49,2.53,18.06c0.06,0.02,0.11,0.04,0.17,0.05
+		c2.42,0.75,5.09,0.33,7.13-1.19c1.51-1.12,3.17-2.92,4.43-5.76c2.35-5.28-0.29-8.29-1.61-9.39c-0.76-0.63-1.49-1.3-2.18-2l0,0"/>
+</g>
+<g id="ella">
+	<path class="st6" d="M114.56,38.63l-6.07,17.46c0,0,4.94-24.68-16.33-8.73C73.43,61.41,65.31,78.99,63.64,82.98
+		c-0.4,0.95-0.62,1.96-0.59,2.99c0.08,3.02,2.37,7.16,17.72-2.16c0,0-23.54,19.74-26.58,38.73c-3.04,18.98,5.32,22.02,5.32,22.02
+		s5.32,3.8,17.46-8.35c0,0,36.69-36.05,47.71-58.51c1.97-4.01,2.87-8.49,2.35-12.93c-0.85-7.34-4.61-6.56-7.57-4.67
+		c-2.13,1.36-3.84,3.28-5.06,5.49c-4.47,8.03-18.85,35.76-16.92,56.95c0,0,4.56,13.67,16.71,3.04c11.74-10.27,32-34.03,40.2-60.29
+		c0.71-2.29,0.84-4.74,0.2-7.04c-1.28-4.63-4.14-3.45-6.19-1.81c-1.34,1.08-2.41,2.45-3.2,3.97c-3.65,7.02-16.99,34.97-9.74,56.06
+		c0,0,2.28,6.83,9.11,1.52c0,0,10.63-12.91,18.98-10.63c8.35,2.28,8.35,9.87,8.35,9.87s-7.59-17.46-17.46-3.04
+		c-6.48,9.47-5.43,14.03-3.95,16.05c0.8,1.08,2.16,1.61,3.49,1.42c3.07-0.44,9.56-3.28,15.65-18.23c0,0-6.83,16.71,0.76,20.5"/>
+</g>
+</svg>

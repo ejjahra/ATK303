@@ -1,0 +1,59 @@
+nav {
+  float: right;
+  margin-top: 70px;
+}
+
+
+nav li {
+  display: inline-block;
+  margin-right: 100px;
+  font-family: proxima-nova, sans-serif;
+}
+
+#logo {
+  width:200px;
+  margin-left: -100px;
+  position: absolute;
+    left: 50%;
+}
+
+#ella {
+  opacity: 0%;
+  animation: words-ani .5s linear;
+  animation-delay: .25s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes words-ani {
+0%   { opacity: 0%;}
+100% { opacity: 100%;}
+}
+
+#jo {
+  opacity: 0%;
+  animation: words-ani .5s linear;
+  animation-delay: .75s;
+  animation-fill-mode: forwards;
+}
+
+#sq2 {
+transform: scale(.75);
+animation: sq-ani .5s linear;
+animation-delay: .9s;
+animation-fill-mode: forwards;
+}
+
+@keyframes sq-ani {
+0%   { transform: scale(.75);}
+100% { transform: scale(1);}
+}
+
+.shuffle-me {
+  margin-left: -410px;
+  position: fixed;
+    top: 300px;
+    left: 50%;
+}
+/* font-family: proxima-nova,sans-serif;
+font-weight: 400;
+font-style: normal; */
