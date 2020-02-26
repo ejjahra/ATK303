@@ -1,20 +1,97 @@
-nav {
-  float: right;
-  margin-top: 70px;
+body {
+  font-size: 18px;
 }
 
 
-nav li {
-  display: inline-block;
-  margin-right: 100px;
+nav {
+  background-color: #E6E2DF;
+  width: 100%;
+  height: 65px;
+  position: fixed;
+    bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  margin-bottom: 1em;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.social-section {
+  background-color: #73737F;
+  width: 100%;
+  height: 175px;
+  margin-bottom: 5em;
+  padding-top: 1.5em;
+}
+
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-copy {
+  font-size: .9em;
   font-family: proxima-nova, sans-serif;
 }
 
+.work-card {
+  background-color: yellow;
+  width: 400px;
+  height: 81px;
+  margin-bottom: .75em;
+}
+
+
+.u-space-inset {
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.25em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.u-color--tan {
+  background-color: #E6E2DF;
+  width: 100%;
+  height: 100px;
+}
+
+.u-color--white {
+  color: white;
+}
+
+.u-base__copy {
+  font-family: proxima-nova, sans-serif;
+}
+
+.u-base__title {
+  font-family: proxima-nova, sans-serif;
+}
+
+.u-base__title--center {
+  font-family: proxima-nova, sans-serif;
+  text-align: center;
+}
+
+
+
 #logo {
-  width:200px;
-  margin-left: -100px;
+  width:72px;
+  margin-left: -35px;
   position: absolute;
     left: 50%;
+  margin-top: 15px;
 }
 
 #ella {
@@ -48,12 +125,6 @@ animation-fill-mode: forwards;
 100% { transform: scale(1);}
 }
 
-.shuffle-me {
-  margin-left: -410px;
-  position: fixed;
-    top: 300px;
-    left: 50%;
-}
 /* font-family: proxima-nova,sans-serif;
 font-weight: 400;
 font-style: normal; */
