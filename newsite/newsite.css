@@ -6,7 +6,7 @@ body {
 nav {
   background-color: #E6E2DF;
   width: 100%;
-  height: 65px;
+  height: 95px;
   position: fixed;
     bottom: 0;
   display: grid;
@@ -24,7 +24,7 @@ nav {
 .social-section {
   background-color: #73737F;
   width: 100%;
-  height: 175px;
+  height: 300px;
   margin-bottom: 5em;
   padding-top: 1.5em;
 }
@@ -36,14 +36,14 @@ nav {
 }
 
 .social-copy {
-  font-size: .9em;
+  font-size: 1.5em;
   font-family: proxima-nova, sans-serif;
 }
 
 .work-card {
   background-color: yellow;
-  width: 400px;
-  height: 81px;
+  width: 700px;
+  height: 200px;
   margin-bottom: .75em;
 }
 
@@ -63,8 +63,11 @@ nav a {
 
 .u-color--tan {
   background-color: #E6E2DF;
+}
+
+.mobile-header {
   width: 100%;
-  height: 100px;
+  height: 225px;
 }
 
 .u-color--white {
@@ -73,6 +76,7 @@ nav a {
 
 .u-base__copy {
   font-family: proxima-nova, sans-serif;
+  font-size: 1.5em;
 }
 
 .u-base__title {
