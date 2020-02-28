@@ -2,29 +2,18 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>New Site</title>
     <link href="newsite.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.typekit.net/ewz2bbg.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery.shuffle-images.min.js"></script>
-    <script>
-  $(document).ready(function() {
-    $(".shuffle-me").shuffleImages({
- trigger: "imageHover",     // Choose which type of trigger you want here. Available options are "imageMouseMove", "imageHover", "documentMouseMove", and "documentScroll". "imageMouseMove" will trigger when your mouse over the image and move your cursor. "imageHover" will trigger when you mouse over without moving your cursor. "documentMouseMove" will trigger when cursor is being moved anywhere on the page. "documentScroll" will trigger when you scroll the page. The default value is "imageMouseMove"
- triggerTarget: false,          // For "imageMouseMove", and "imageHover" only, you can set which element to trigger the image shuffle when mouse over. For example, if you want a container ".main" to trigger an image shuffle instead of the image itself, put $(".main") for this option. Default value is false.
- mouseMoveTrigger: 50,          // For "imageMouseMove" only, you can set how many pixels you have to move in order to trigger one image shuffle. The lower the faster. The default value is 50.
- hoverTrigger: 200,             // For "imageHover" only, you can set how long you have to hover the image until it shuffles to other images. The option accepts milliseconds without unit. The default value is 200.
- scrollTrigger: 100,          // For "documentScroll" only, you can set how many pixels you have to scroll to see the image shuffle. The default value is 100.
- target: "> img"              // In case you have a complete HTML structure, you can set your own custom selector to your images here. The default value is "> img" which means images that are directly under the "shuffle-me" will be used to shuffle.
-});
-});
-    </script>
+
 </head>
 
 <body>
   <header>
-    <div class="center u-color--tan mobile-header">
     <svg id="logo" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
     	 viewBox="0 0 280 280" style="enable-background:new 0 0 280 280;" xml:space="preserve">
     <style type="text/css">
@@ -87,32 +76,30 @@
     		c-6.48,9.47-5.43,14.03-3.95,16.05c0.8,1.08,2.16,1.61,3.49,1.42c3.07-0.44,9.56-3.28,15.65-18.23c0,0-6.83,16.71,0.76,20.5"/>
     </g>
     </svg>
-</div>
-    <nav>
-      <a class="u-base__copy text-center" href="#">work</a>
-      <a class="u-base__copy text-center" href="#">about</a>
-      <a class="u-base__copy text-center" href="#">contact</a>
-    </nav>
   </header>
 
-  <div class="center">
-      <h1 class="u-base__title--center">Blah blah blah</h1>
-      <p class="u-base__copy text-center">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+  <nav>
+    <a href="#">work</a>
+    <a href="#">about</a>
+    <a href="#">contact</a>
+  </nav>
+
+  <div class="intro-text">
+    <h1>Welcome!</h1>
+    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
   </div>
 
-  <div class="work-card center"></div>
+<div class="work-card-grid">
+  <div class="work-card"></div>
+  <div class="work-card"></div>
+  <div class="work-card"></div>
+  <div class="work-card"></div>
+</div>
 
-  <div class="work-card center"></div>
-
-  <div class="work-card center"></div>
-
-  <div class="work-card center"></div>
-
-  <div class="social-section">
-    <h1 class="u-base__title u-color--white u-space-inset">Blah blah blah</h1>
-    <p class="social-copy u-color--white u-space-inset">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+  <div class="social-card">
+    <h2>Contact Me!</h2>
+    <p class="social-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd</p>
   </div>
-
 
 </body>
 </html>

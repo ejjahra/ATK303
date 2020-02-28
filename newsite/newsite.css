@@ -3,6 +3,13 @@ body {
 }
 
 
+header {
+  width: 100%;
+  height: 225px;
+  background-color: #E6E2DF;
+}
+
+
 nav {
   background-color: #E6E2DF;
   width: 100%;
@@ -17,78 +24,65 @@ nav {
 
 }
 
-.text-center {
-  text-align: center;
-}
-
-.social-section {
-  background-color: #73737F;
-  width: 100%;
-  height: 300px;
-  margin-bottom: 5em;
-  padding-top: 1.5em;
-}
-
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.social-copy {
-  font-size: 1.5em;
-  font-family: proxima-nova, sans-serif;
-}
-
-.work-card {
-  background-color: yellow;
-  width: 700px;
-  height: 200px;
-  margin-bottom: .75em;
-}
-
-
-.u-space-inset {
-  margin-left: 2.5em;
-  margin-right: 2.5em;
-}
-
 nav a {
   display: inline-block;
   text-decoration: none;
   padding: 1.25em;
-  font-size: 1em;
-  font-weight: 600;
-}
-
-.u-color--tan {
-  background-color: #E6E2DF;
-}
-
-.mobile-header {
-  width: 100%;
-  height: 225px;
-}
-
-.u-color--white {
-  color: white;
-}
-
-.u-base__copy {
-  font-family: proxima-nova, sans-serif;
   font-size: 1.5em;
-}
-
-.u-base__title {
+  font-weight: 600;
+  text-align: center;
   font-family: proxima-nova, sans-serif;
+  color: #707070;
 }
 
-.u-base__title--center {
+.intro-text {
   font-family: proxima-nova, sans-serif;
   text-align: center;
+  margin: auto;
+}
+
+.work-card {
+  background-color: grey;
+  width: 90%;
+  height: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+}
+
+.work-card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.social-card {
+  background-color: #73737F;
+  width: 100%;
+  height: 10em;
+  font-family: proxima-nova, sans-serif;
+  color: white;
+  padding-top: .5em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 7em;
+}
+
+.social-text {
+  margin: 1em;
+}
+
+h1 {
+  margin-bottom: 0px;
 }
 
 
+
+/* @media all and (min-width: 768px){
+  nav {
+    background-color: blue;
+  }
+} */
 
 #logo {
   width:200px;
@@ -97,6 +91,8 @@ nav a {
     left: 50%;
   margin-top: 15px;
 }
+
+
 
 #ella {
   opacity: 0%;
@@ -129,6 +125,90 @@ animation-fill-mode: forwards;
 100% { transform: scale(1);}
 }
 
+@media all and (min-width: 768px){
+
+  header {
+    height: 8em;
+    background-color: transparent;
+  }
+
+
+  #logo {
+    width: 9em;
+    position: absolute;
+      left: 0px;
+    margin-left: 0px;
+  }
+
+  nav {
+    width: 50%;
+    position: absolute;
+      top: 0px;
+    margin-left: 50%;
+    margin-top: 4.5em;
+    background-color: transparent;
+  }
+
+  nav a {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+
+  .work-card {
+    height: 15em;
+  }
+
+  .work-card-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  .intro-text {
+    background-color: #E6E2DF;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+}
+
+@media all and (min-width: 960px){
+
+  header {
+    height: 12em;
+  }
+
+  #logo {
+    margin-left: 29%;
+  }
+
+
+  nav {
+    width: 30%;
+    height: 0px;
+    margin-left: 68%;
+    margin-top: 75px;
+    background-color: #E6E2DF;
+  }
+
+  .intro-text{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 30%;
+    float: right;
+  }
+
+  .work-card {
+    margin-bottom: 0em;
+  }
+
+  .social-card {
+    margin: 0;
+    width: 30%;
+    float: right;
+    height: 500px;
+  }
+}
 /* font-family: proxima-nova,sans-serif;
 font-weight: 400;
 font-style: normal; */
