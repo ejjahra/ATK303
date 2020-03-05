@@ -194,8 +194,14 @@ animation-fill-mode: forwards;
   .intro-text{
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 30%;
+    width: 25%;
     float: right;
+    margin-right: 20px;
+  }
+
+  .work-card-grid {
+    float: left;
+    width: 70%;
   }
 
   .work-card {
@@ -204,9 +210,10 @@ animation-fill-mode: forwards;
 
   .social-card {
     margin: 0;
-    width: 30%;
+    width: 25%;
     float: right;
     height: 500px;
+    margin-right: 20px;
   }
 }
 /* font-family: proxima-nova,sans-serif;

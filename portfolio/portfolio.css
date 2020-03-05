@@ -1,0 +1,31 @@
+
+.intro-card {
+  background-color: #2F4858;
+  color: white;
+  padding: 1em;
+}
+
+.intro-card--text{
+  padding: 1.5em
+}
+
+
+.stripes {
+  width: 100%;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+.col,
+[class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.logo {
+  width: 100px;
+  margin-top: 1em;
+}
