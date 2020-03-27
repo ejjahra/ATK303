@@ -2,27 +2,27 @@
 
 
 .mountains {
-  position: fixed;
+  position: absolute;
     left: 50px;
     top: 825px;
 
 }
 
 .river {
-  position: fixed;
+  position: absolute;
     left: -6px;
     top: 855px;
 
 }
 
 .cave {
-  position: fixed;
+  position: absolute;
     left: 545px;
     top: 807px;
 }
 
 .clouds {
-  position: fixed;
+  position: absolute;
     left: 1025px;
     top: 100px;
 }
