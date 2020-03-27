@@ -72,3 +72,7 @@
 .visuallyhidden {
   display: none;
 }
+
+.marginbottom {
+  margin-bottom: 20px;
+}
