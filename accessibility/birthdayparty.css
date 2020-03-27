@@ -1,0 +1,70 @@
+
+
+
+.mountains {
+  position: absolute;
+    left: 50px;
+    top: 825px;
+
+}
+
+.river {
+  position: absolute;
+    left: -6px;
+    top: 855px;
+
+}
+
+.cave {
+  position: absolute;
+    left: 545px;
+    top: 807px;
+}
+
+.clouds {
+  position: absolute;
+    left: 1025px;
+    top: 100px;
+}
+
+.exile {
+  width: 1680px;
+  position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.color {
+  background-color: #003255;
+}
+
+.celine {
+  width: 1200px;
+  position: absolute;
+    left: 225px;
+    top: 300px;
+}
+
+.angel {
+  font-family: 'Marck Script', cursive;
+  font-size: 120px;
+  color: white;
+  position: absolute;
+    left: 430px;
+}
+
+.cavetext {
+  font-family: 'Karla', sans-serif;
+  color: #9AAFB6;
+  position: absolute;
+    left: 535px;
+    top: 773px;
+}
+
+.cloudtext {
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+    left: 1310px;
+    top: 230px;
+  color: #E6E6E6;
+}
