@@ -1,0 +1,12 @@
+ul {
+  list-style-type: none;
+}
+
+.right {
+  font-family: 'Questrial', sans-serif;
+  margin-top: 165px;
+  margin-right: 150px;
+  width: 300;
+  float: right;
+  padding-right: 25px;
+}
